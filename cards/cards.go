@@ -7,10 +7,15 @@ package cards
 
 import (
 	"strconv"
+	"strings"
 )
 
 //IsLuhn returns true is number passes the Luhn validation
 func IsLuhn(number string) bool {
+
+	//do some clean ups on white spaces
+	numberFields := strings.Fields(number)
+	number = strings.Join(numberFields, "")
 
 	numberOfDigits := len(number)
 

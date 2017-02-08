@@ -2,6 +2,7 @@ package cards
 
 import "testing"
 
+//go test -v
 func TestLuhn(t *testing.T) {
 
 	var tests = []struct {
@@ -22,6 +23,7 @@ func TestLuhn(t *testing.T) {
 	}
 }
 
+//go test -bench=.
 func BenchmarkLuhn(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		IsLuhn("378282246310005")

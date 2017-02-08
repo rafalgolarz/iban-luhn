@@ -2,6 +2,7 @@ package accounts
 
 import "testing"
 
+//go test -v
 func TestIBAN(t *testing.T) {
 
 	var tests = []struct {
@@ -26,6 +27,7 @@ func TestIBAN(t *testing.T) {
 	}
 }
 
+//go test -bench=.
 func BenchmarkIBAN(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		IsIBAN("MT84 MALT 0110 0001 2345 MTLC AST0 01S")
