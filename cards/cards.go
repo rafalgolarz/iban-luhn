@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-//IsLuhn returns true is number passes the Luhn validation
+//IsLuhn returns true if number passes the Luhn validation
 func IsLuhn(number string) bool {
 
 	//do some clean ups on white spaces

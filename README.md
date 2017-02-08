@@ -6,12 +6,17 @@ Go libraries for validating banking data (account or card numbers)
 #### func IsIBAN(account string) bool
 
 Returns true if account is a valid IBAN number
+
 #### func FormatIBAN(iban string, verify bool) (formatted string, err error)
 
 Returns formatted IBAN.
 If verify is set to true, perform IBAN validation first (by calling IsIBAN)
 
 ## [cards.go](https://github.com/rafalgolarz/bankingo/blob/master/cards/cards.go)
+
+#### func IsLuhn(number string) bool
+
+Returns true if number passes the Luhn validation
 
 ## Running the example
 
