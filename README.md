@@ -1,3 +1,6 @@
+[![codebeat badge](https://codebeat.co/badges/3cadc60b-3642-46bc-9118-1595e354aa6d)](https://codebeat.co/projects/github-com-rafalgolarz-bankingo)
+[![GoDoc](https://godoc.org/github.com/rafalgolarz/bankingo?status.svg)](https://godoc.org/github.com/rafalgolarz/bankingo)
+
 # bankingo
 Go libraries for validating banking data (account or card numbers)
 
