@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/rafalgolarz/bankingo.svg?branch=master)](https://travis-ci.org/rafalgolarz/bankingo)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rafalgolarz/bankingo)](https://goreportcard.com/report/github.com/rafalgolarz/bankingo)
 [![codebeat badge](https://codebeat.co/badges/3cadc60b-3642-46bc-9118-1595e354aa6d)](https://codebeat.co/projects/github-com-rafalgolarz-bankingo)
+[![CircleCI](https://circleci.com/gh/rafalgolarz/bankingo/tree/master.svg?style=svg)](https://circleci.com/gh/rafalgolarz/bankingo/tree/master)
 [![GoDoc](https://godoc.org/github.com/rafalgolarz/bankingo?status.svg)](https://godoc.org/github.com/rafalgolarz/bankingo)
 
 # bankingo
