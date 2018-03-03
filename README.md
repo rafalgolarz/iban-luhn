@@ -45,8 +45,9 @@ then, assuming you have $GOPATH environmental variable set
     $ cd $GOPATH/src/github.com/rafalgolarz/bankingo/accounts
     $ go test -v
     $ go test -bench=.
+    $ go test -count 3 -benchmem -bench=.
     
     $ cd $GOPATH/src/github.com/rafalgolarz/bankingo/cards
     $ go test -v
     $ go test -bench=.
-    
+    $ go test -count 3 -benchmem -bench=.
