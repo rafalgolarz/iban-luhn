@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/rafalgolarz/bankingo/accounts"
-	"github.com/rafalgolarz/bankingo/cards"
+	"github.com/rafalgolarz/iban-luhn/accounts"
+	"github.com/rafalgolarz/iban-luhn/cards"
 )
 
 func main() {
